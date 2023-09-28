@@ -3,7 +3,7 @@ import React from "react";
 
 const Card = ({ data }) => {
   return (
-    <div className="p-4 sm:w-1/2 lg:w-1/3">
+    <div className="p-4 sm:w-1/2 lg:w-1/3 font-poppins">
       <div className="h-full overflow-hidden border-2 border-gray-200 rounded-lg border-opacity-60">
         <div className="p-6 transition duration-300 ease-in hover:bg-indigo-700 hover:text-white">
           <h2 className="mb-1 text-base font-medium text-indigo-300">

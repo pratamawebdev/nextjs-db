@@ -3,7 +3,7 @@ import React from "react";
 
 const TodosDetails = ({ todo }) => {
   return (
-    <div className="flex items-center justify-center h-screen max-w-screen-xl mx-auto">
+    <div className="flex items-center justify-center h-screen max-w-screen-xl mx-auto font-poppins">
       <div className="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
         <h1 className="mb-3 text-xl font-semibold text-blue-400">
           {todo.userId}

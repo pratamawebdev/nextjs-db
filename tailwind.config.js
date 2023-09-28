@@ -10,6 +10,7 @@ module.exports = {
       fontFamily: {
         inter: "var(--font-inter)",
         skranji: "var(--font-skranji)",
+        poppins: "var(--font-poppins)",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

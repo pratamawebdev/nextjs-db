@@ -1,9 +1,14 @@
 import "@/styles/globals.css";
 
-import { Inter, Skranji } from "next/font/google";
+import { Inter, Skranji, Poppins } from "next/font/google";
 import Head from "next/head";
 
 const skranji = Skranji({
+  subsets: ["latin"],
+  weight: ["400", "700"],
+});
+
+const poppins = Poppins({
   subsets: ["latin"],
   weight: ["400", "700"],
 });
@@ -24,6 +29,7 @@ export default function App({ Component, pageProps }) {
           :root {
             --font-inter: ${inter.style.fontFamily};
             --font-skranji: ${skranji.style.fontFamily};
+            --font-poppins: ${poppins.style.fontFamily};
           }
         `}
       </style>
