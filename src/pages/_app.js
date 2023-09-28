@@ -1,6 +1,6 @@
 import "@/styles/globals.css";
 
-import { Inter, Skranji, Poppins } from "next/font/google";
+import { Inter, Poppins, Skranji } from "next/font/google";
 import Head from "next/head";
 
 const skranji = Skranji({
