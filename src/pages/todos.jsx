@@ -1,9 +1,9 @@
 import axios from "axios";
+import Head from "next/head";
+import Image from "next/image";
 import React from "react";
 
 import Card from "@/components/todos/card";
-import Image from "next/image";
-import Head from "next/head";
 
 const Todos = ({ data }) => {
   const todos = data?.todos || [];
@@ -29,6 +29,7 @@ const Todos = ({ data }) => {
                 width={300}
                 height={300}
                 className="object-cover"
+                alt="Image Todos"
               />
             </div>
           </div>
