@@ -18,7 +18,7 @@ export default function CSRPage() {
       .catch((error) => console.log(error));
   }, []);
   console.log(data);
-  if (isLoading) return <p>Loading ...</p>;
+  if (isLoading) return <p>Loading Now ...</p>;
   if (!data) return <p>No profile data</p>;
 
   return (
