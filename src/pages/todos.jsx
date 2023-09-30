@@ -33,7 +33,7 @@ const Todos = ({ data }) => {
               />
             </div>
           </div>
-          <div className="flex flex-wrap -m-4">
+          <div className="flex flex-wrap justify-center -m-4">
             {todos.map((item, index) => (
               <Card data={item} key={index} />
             ))}
